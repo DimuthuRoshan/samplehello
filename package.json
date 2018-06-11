@@ -1,0 +1,41 @@
+{
+  "name": "ms-ng-kaltura-file-uploader",
+  "version": "2.0.0",
+  "description": "Component specially designed to upload files to kaltura video hosting service provider",
+  "main": "index.js",
+  "scripts": {
+    "setup": "yarn install --ignore-engines",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch",
+    "dev-build": "webpack --config ./webpack.config.js",
+    "dev-build-release": "webpack --config ./webpack.config.release.js",
+    "clean": "rimraf ./src/dist/bundle.js",
+    "clean-comp": "rimraf ./src/components/build-comp.js"
+  },
+  "author": "Dahara Team",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.8.0",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.1.18",
+    "babel-preset-react": "6.1.18",
+    "babel-preset-stage-1": "6.1.18",
+    "jquery": "1.9",
+    "react-hot-loader": "1.3.1",
+    "webpack": "1.12.9",
+    "webpack-dev-server": "1.14.0"
+  },
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-tooltip": "1.1.4"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-1"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "select-rubric",
+  "_release": "2845cbb113",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2845cbb1131f037254afe23b3d5c420945aceefe"
+  },
+  "_source": "ssh://git@bitbucket.pearson.com/lasc/select-rubric.git",
+  "_target": "*",
+  "_originalSource": "ssh://git@bitbucket.pearson.com/lasc/select-rubric.git"
+}
