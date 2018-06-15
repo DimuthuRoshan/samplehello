@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 
 
-class HelloWorld extends Component {
+export default class HelloWorld extends Component {
 
     constructor(props) {
         super(props);
@@ -11,13 +11,8 @@ class HelloWorld extends Component {
     render() {
         return (
             <div>
-                <h3>Version  1 via CDN</h3>
+                <h3>Version  2 via CDN</h3>
             </div>
         );
     }
 }
-
-HelloWorld.defaultProps = {
-};
-
-export default HelloWorld;

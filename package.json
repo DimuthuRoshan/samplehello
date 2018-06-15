@@ -10,6 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "dev-build": "webpack --config ./webpack.config.js",
     "dev-build-release": "webpack --config ./webpack.config.release.js",
+    "dev-build-comp": "webpack --config ./webpack.config.comp.js",
     "clean": "rimraf ./src/dist/bundle.js",
     "clean-comp": "rimraf ./src/components/build-comp.js"
   },

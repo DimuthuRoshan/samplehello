@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from './dist/HelloWorld';
+//import HelloWorld from './components/HelloWorld';
 
 
 class App extends Component {
