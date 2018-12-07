@@ -115,7 +115,7 @@
 	                }
 	            };
 	
-	            request.open('GET', "https://rawgit.com/DimuthuRoshan/samplehello/master/src/dist/v1/HelloWorld.js");
+	            request.open('GET', "https://cdn.jsdelivr.net/gh/DimuthuRoshan/samplehello/src/dist/v1/HelloWorld.js");
 	            request.send();
 	
 	            /*return new Promise(function(resolve, reject) {
